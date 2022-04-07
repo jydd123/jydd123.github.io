@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>消歧投稿</title>
+<meta charset="utf-8">
+<style>
+label { display: block; 
+	    margin-top: 20px; }
+input { display: block;
+        margin-bottom: 20px; }
+</style>
+</head>
+<body>
+<h1>消歧投稿</h1>
+<p>请参考已发布的投稿格式</p>
+
+<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+  <label for="用人单位">* 用人单位</label>
+  <input type="text" name="用人单位" id="用人单位" required="required" placeholder="用人单位名称：xx公司">
+  <label for="招聘/招录/招考岗位">* 招聘/招录/招考岗位</label>
+  <input type="text" name="招聘/招录/招考岗位" id="招聘/招录/招考岗位" required="required" placeholder="岗位名称：xxx">
+  <label for="性别限制">* 性别限制</label>
+  <input type="性别限制" name="性别限制" id="性别限制" required="required" placeholder="涉及性别限制的要求">
+<label for="招聘链接/图片">* 招聘链接/图片</label>
+  <input type="招聘链接/图片" name="招聘链接/图片" id="性招聘链接/图片" required="required" placeholder="招聘链接/图片">
+  <label for="其它">其它</label>
+  <textarea name="其它" id="其它" rows="2" cols="40" placeholder="其它想说的话"></textarea>
+  <input type="submit" value="提交">
+</form>
+</body>
+</html>
