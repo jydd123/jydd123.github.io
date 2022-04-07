@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>就业大队的网站</title>
+<meta charset="utf-8">
+<style>
+body { background-color:#f4ffe4; 
+       color:#333333;
+	   font-family: Verdana, Arial, sans-serif;
+	   width: 80%;
+	   min-width: 750px; 
+}
+h1 { background-color: #5c743d;
+     color:#ffffbe;
+	 font-family: Georgia, "Times New Roman", serif;
+	 background-image: url(大队logo.jpeg);
+	 background-repeat: no-repeat;
+	 background-position: left;
+	 text-indent: 150px;
+	 font-size: 3em;
+         line-height: 250%;
+	 height: 120px;
+
+}
+h2 { color:#5c743d;
+     font-family: Georgia, "Times New Roman", serif;
+}
+p { text-indent: 3em; }
+nav { font-weight: bold; }
+.companyname { color: #5c743d; 
+               font-weight: bold;
+}
+footer {  font-family: Georgia, "Times New Roman", serif;
+          font-size: .80em;
+		  font-style: italic;
+		  text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>致力于消除就业性别歧视</h1>
+</header>
+<nav>
+  <b>
+     <a href="1.行动.html">行动</a> &nbsp; 
+     <a href="2.海外.html">海外</a> &nbsp; 
+     <a href="3.设计.html">设计</a> &nbsp; 
+     <a href="4.出品.html">出品</a> &nbsp; 
+	 <a href="5.周边.html">周边</a>
+  </b>
+</nav>
+<main>
+<title>banner</title>
+    <style type="text/css">
+        #banner{
+            width: "350";
+            height: "416";
+            margin: 50px auto;
+            position: relative;
+        }
+        #banner ul{
+            position: absolute;
+            left: 480px;
+            top: 210px;
+        }
+        #banner li{
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            list-style: none;
+            float: left;
+            margin: 0px 10px;
+        }
+        /*鼠标移出样式*/
+        .b_li_out{
+            border: 1px solid orange;
+            color: orange;
+            background: #fff;
+        }
+        /*鼠标移入样式*/
+        .b_li_over{
+            border: none;
+            color: #fff;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+<div id="banner">
+    <img id="img" src="img/01.jpg" height="350" width="816">
+    <ul>
+        <li class="b_li_out">1</li>
+        <li class="b_li_out">2</li>
+        <li class="b_li_out">3</li>
+        <li class="b_li_out">4</li>
+    </ul>
+</div>
+<script type="text/javascript">
+    var urls=new Array("img/01.jpg","img/02.jpg","img/03.jpg","img/04.jpg");
+    var lis=document.getElementById("banner").getElementsByTagName("li");
+    var Img=document.getElementById("img");
+    var len=lis.length;
+    for(var i=0;i<len;i++){
+        /*鼠标移入事件*/
+        lis[i].onmouseover=function (){
+            for(var j=0;j<len;j++){
+                if(this==lis[j]){
+                    lis[j].className="b_li_over";
+                    Img.src=urls[j];
+                }
+            }
+        }
+        /*鼠标移出事件*/
+        lis[i].onmouseout=function () {
+            for(var j=0;j<len;j++){
+                if(this==lis[j]){
+                    lis[j].className="b_li_out";
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
+<h2>消歧投稿</h2>
+  <dl>
+   <a href="0.投稿页.html">投稿性别限制用人单位</a>
+<dl>
+   <a href="https://jyjcdd.github.io/view/2022/xqxz/01.html">历史投稿信息</a>
+ <h2>消歧指南</h2>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/NbWwn1alc8lHqDti7jQ6TQ">消除就业性别歧视维权指南</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/n13CqG7BCc0Pr_yi14uQ5Q">手把手教你写就业性别歧视举报信【3.0版】</a>
+ <h2>消歧月刊</h2>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/uqJtI-Wl6y_4vAu76r8e4A">消歧月刊 | 文字无法掩饰差别化对待</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/Fzq_o83Wqixsa8oEI0MB-w">消歧月刊 | 勿要打着需求的幌子设定限制</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/rteSTMJ-QZb7NDtvV8hfvQ">消歧月刊 | 合适岗位的考量不该基于性别</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/aLSilxPypTD9-vMMxCooBw">消歧月刊 | 福州高新区人社局：联系企业删除公告</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/G6Av5pHV-kcHP1rulNT_Uw">消歧周刊 | 广州明珠湾开发建设管理局：适合男性仅为岗位客观描述</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/yQ4E62yBFQtERdJBWyVt-g">消歧周刊｜台山行政服务中心：立刻整改，删掉性别限制内容</a>
+<h2>消歧行动</h2>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/41_kbMBOCwBk4LRaUfHhMA">我们网曝了一所要求“男性优先”的高校</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/2GGnA5N7EUQtytkgq59j0A">女大学生向九单位举报银行招聘中存在性别歧视</a>
+<h2>志愿者</h2>
+  <dl>
+   <a href="http://jyxbqsjcdd.mikecrm.com/NqCjkuE">就业大队志愿者申请表</a>
+  <dl>
+   <a href="https://mp.weixin.qq.com/s/m8YKExEgaLY4DuHB0rd-hg">那些年，我怼过的人社局（附超实用指南！）</a>
+<h2>媒体报道</h2>
+  <dl>
+   <a href="http://www.ifengweekly.com/detil.php?id=10521">“就业性别歧视监察大队”的成长史-凤凰周刊</a>
+</main>
+<footer>
+<small><i>Copyright &copy; 2022 就业性别歧视煎茶大队</i></small>
+</footer>
+</body>
+</html>
