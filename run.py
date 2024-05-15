@@ -28,7 +28,7 @@ for year, months in sorted(file_groups.items(), reverse=True):
     html_content += "</ul>\n"
 
 # 生成新的HTML文件
-with open('微信文章.html', 'w') as f:
+with open('8.微信文章.html', 'w') as f:
     f.write(f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -44,4 +44,4 @@ with open('微信文章.html', 'w') as f:
     </html>
     """)
 
-print("HTML文件列表已按年份和日期生成到'微信文章.html'文件中")
+print("HTML文件列表已按年份和日期生成到'8.微信文章.html'文件中")
